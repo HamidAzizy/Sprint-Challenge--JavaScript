@@ -6,7 +6,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
+This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and  objectives introduced and practiced in preceding days.
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in JavaScript fundamentals.
 
@@ -30,11 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+A. forEach() — executes a provided function once for each array element.
+map() — creates a new array with the results of calling a provided function on every element in the calling array.
+
 2. What is the difference between a function and a method?
+
+A. A method is similar to a function, but is internal to part of a function or Class.
 
 3. What is closure?
 
+A. a closure is combination of functin and it  gives you access to an outer function’s scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
+
+A. 1: Window/Global Object: When in the global scop we use 'this' keyword it's global binding.
+   2: Implicit Binding: When the keyword this is inside of declared object.
+   3: New binding: when we use the constructor function this keyword refrence to the specifice instance.
+   4: Explicit binding: when ever we use .call .apply this keyword is explicti defined.
 
 5. Why do we need super() in an extended class?
 
