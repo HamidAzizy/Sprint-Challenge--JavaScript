@@ -36,12 +36,10 @@ return (2 * (this.length * this.width + this.length * this.height + this.width *
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
 let cuboid = new CuboidMaker(4,5,5);
-let hamid = new CuboidMaker(4,4,4)
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
  console.log(cuboid.volume()); // 100
  console.log(cuboid.surfaceArea()); // 130
 
- console.log(cuboid.surfaceArea())
 
 
